@@ -91,6 +91,11 @@ prebuilt_etc {
         x86_64: {
             src: "seccomp_policy/android.hardware.media.c2@1.2-default-x86_64.policy",
         },
+        // FIXME: use policy file from arm64 to pass build.
+        // Need to replace it with real file for riscv64
+        riscv64: {
+            src: "seccomp_policy/android.hardware.media.c2@1.2-default-riscv64.policy",
+        },
     },
 
     // This may be removed.
