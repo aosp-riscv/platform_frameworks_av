@@ -74,6 +74,10 @@ prebuilt_etc {
         arm64: {
             src: "seccomp_policy/mediaextractor-arm64.policy",
         },
+        // FIXME: use the real policy file for riscv64
+        riscv64: {
+            src: "seccomp_policy/mediaextractor-riscv64.policy",
+        },
         x86: {
             src: "seccomp_policy/mediaextractor-x86.policy",
         },

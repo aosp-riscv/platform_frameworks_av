@@ -53,6 +53,10 @@ prebuilt_etc {
         arm64: {
             src: "seccomp_policy/mediaswcodec-arm64.policy",
         },
+        // FIXME: use the real policy file for riscv64
+        riscv64: {
+            src: "seccomp_policy/mediaswcodec-riscv64.policy",
+        },
         x86: {
             src: "seccomp_policy/mediaswcodec-x86.policy",
         },
@@ -142,6 +146,10 @@ prebuilt_etc {
         },
         arm64: {
             src: "seccomp_policy/mediacodec-arm64.policy",
+        },
+        // FIXME: use the real policy file for riscv64
+        riscv64: {
+            src: "seccomp_policy/mediacodec-riscv64.policy",
         },
         x86: {
             src: "seccomp_policy/mediacodec-x86.policy",
